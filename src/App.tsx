@@ -13,7 +13,7 @@ import Experience from './components/Experience';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/rmk-port">
       <GlobalStyle />
       <Navbar />
       <Routes>
